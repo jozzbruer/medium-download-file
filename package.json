@@ -4,7 +4,8 @@
   "description": "tutorial on medium",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jozzbruer/medium-download-file/issues"
   },
-  "homepage": "https://github.com/jozzbruer/medium-download-file#readme"
+  "homepage": "https://github.com/jozzbruer/medium-download-file#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
